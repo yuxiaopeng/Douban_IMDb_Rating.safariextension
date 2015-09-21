@@ -8,7 +8,7 @@
 
 ## Usage
 
-下载最新的[`release`](https://github.com/yuxiaopeng/Douban_IMDb_Rating.safariextension/releases)到本地安装或Clone本项目到本地打开Safari，··`开发 - 显示扩展创建器 - 添加扩展 - 安装`（注意，这种方式是临时安装测试，重启Safari后插件就没有了，需要再次安装，为了减少麻烦尽量选择下载release扩展所安装或在本地使用自己的插件开发证书`创建软件包`然后安装）
+下载最新的[`release`](https://github.com/yuxiaopeng/Douban_IMDb_Rating.safariextension/releases)到本地安装或Clone本项目到本地打开Safari，`开发 - 显示扩展创建器 - 添加扩展 - 安装`（注意，这种方式是临时安装测试，重启Safari后插件就没有了，需要再次安装，为了减少麻烦尽量选择下载release扩展所安装或在本地使用自己的插件开发证书`创建软件包`然后安装）
 
 ## Change-log
 
