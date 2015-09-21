@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+	</head>
+	
+	<body>
+		
+		<div id="info">test </div>
+		
+		<script type="text/javascript">
+			var imdbElement = $('#info');
+			var imdbURL = "http://www.omdbapi.com/?i=tt0105323&plot=short&r=json";
+			var ratingUsersURL = "http://www.imdb.com/title/tt0050083/ratings?ref_=tt_ov_rt";
+			$.getJSON( imdbURL, function( data ) {
+				var imdbRating = data.imdbRating;
+				var imdbVotes = data.imdbVotes;
+				
+				var ratingElement = '<div class="star-box-details"> IMDb Ratings: <strong><span>' + imdbRating + '</span></strong><span class="mellow">/<span>10</span></span> from <a href=' + ratingUsersURL + ' <span>' + imdbVotes + '</span> users</a>&nbsp;<br></div>';
+				alert(ratingElement);
+				
+/* 				$(ratingCode).appendTo(imdbElement); */
+				imdbElement.after(ratingElement);
+			});
+
+		</script>
+	</body>
+</html>
